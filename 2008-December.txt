@@ -1,0 +1,42 @@
+From anurag.bhd at gmail.com  Tue Dec 30 09:20:07 2008
+From: anurag.bhd at gmail.com (Anurag Bhandari)
+Date: Tue, 30 Dec 2008 13:50:07 +0530
+Subject: [Livecd-users] Error: No suitable media for the livecd content found
+Message-ID: <6c20a9110812300020p3f983ca7v29efb9481f509e52@mail.gmail.com>
+
+Hello,
+
+The preparations for the final release of Granular 1.0 are on, and
+currently, the testing phase of the ISO is in progress. During testing, I
+found out that booting the ISO results in this error:
+
+Error: No suitable media for the livecd content found.
+Workaround: Copy the content of the livecd from your boot device to an
+IDE/SATA disk
+
+This is during the booting phase when "linuxrc" routine of mklivecd is in
+progress. The error occurs just after the "Probing USB" process gets over.
+
+I checked out the "linuxrc" script for any clues and found out that the
+error could be popping up due to the variable "CROM_LIST" being empty.
+
+Does this mean that no CDROM devices are being detected? Could it be that
+the usb/ide cdrom drivers are missing, or need to be updated to a newer
+version?
+
+What could be the solution to this issue?
+
+Thanks.
+
+-- 
+Anurag Bhandari
+http://anurag.granularproject.org/
+
+Founder & Project Lead,
+Granular Linux Project
+http://www.granularproject.org/
+http://www.granularlinux.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20081230/f8b315b9/attachment.html>
+

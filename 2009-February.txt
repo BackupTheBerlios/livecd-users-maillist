@@ -1,0 +1,356 @@
+From skiperdrake at gmail.com  Mon Feb  9 19:04:01 2009
+From: skiperdrake at gmail.com (Thomas Lottmann)
+Date: Mon, 09 Feb 2009 19:04:01 +0100
+Subject: [Livecd-users] Getting the sources of mklivecd
+In-Reply-To: <6c20a9110901221242o7c5c9a28x4a8ec864423c8529@mail.gmail.com>
+References: <4973A365.4000007@gmail.com>	<d6d95ff20901190935w4f6aa6d9g5c3aa0123f6f3197@mail.gmail.com>	<6c20a9110901190946g440046f6nef956fafab6fc6a@mail.gmail.com>	<497501FF.6000900@gmail.com>	<6c20a9110901200214h200a97b0xa8240ada706a079@mail.gmail.com>	<4975C2A3.6010502@gmail.com>	<6c20a9110901200432t16008b20s379d8242d3259080@mail.gmail.com>	<49776F6E.80705@gmail.com>	<6c20a9110901211758r220d000cv4a925613bd93773f@mail.gmail.com>	<4978C059.8050207@gmail.com>
+	<6c20a9110901221242o7c5c9a28x4a8ec864423c8529@mail.gmail.com>
+Message-ID: <49907011.9040702@gmail.com>
+
+Hello!
+
+I used to post help about mklivecd to build a mandriva-based livecd.
+
+However, due to incompatibilities, I gave out.
+
+I have looked for the sources of the latest version of mklivecd, but I 
+cannot find them. the sources that I find are of the old version 0.6.0.
+
+Is it possible to have those for the latest version (0.7.1 I think)? I 
+would like it to be adapted for Mandriva. this tool is way to gfreat to 
+be limited to only one distro. :-)
+
+Thank you by advance .
+
+Thomas.
+
+
+From simon at onepointltd.com  Mon Feb  9 19:22:28 2009
+From: simon at onepointltd.com (Simon Blandford)
+Date: Mon, 09 Feb 2009 18:22:28 +0000
+Subject: [Livecd-users] Getting the sources of mklivecd
+In-Reply-To: <49907011.9040702@gmail.com>
+References: <4973A365.4000007@gmail.com>	<d6d95ff20901190935w4f6aa6d9g5c3aa0123f6f3197@mail.gmail.com>	<6c20a9110901190946g440046f6nef956fafab6fc6a@mail.gmail.com>	<497501FF.6000900@gmail.com>	<6c20a9110901200214h200a97b0xa8240ada706a079@mail.gmail.com>	<4975C2A3.6010502@gmail.com>	<6c20a9110901200432t16008b20s379d8242d3259080@mail.gmail.com>	<49776F6E.80705@gmail.com>	<6c20a9110901211758r220d000cv4a925613bd93773f@mail.gmail.com>	<4978C059.8050207@gmail.com>	<6c20a9110901221242o7c5c9a28x4a8ec864423c8529@mail.gmail.com>
+	<49907011.9040702@gmail.com>
+Message-ID: <49907464.3040102@onepointltd.com>
+
+Hi Thomas,
+
+A new version based on a recent SVN checkout is available in Mandriva 
+backports. It is still labeled as an old version but with the SVN 
+timestamp. It has patches to attempt to make it work with Mandriva 2009. 
+Specify unionfs on the command line when using it since the default aufs 
+doesn't work, at least not for me.
+
+The rpm to try is
+mklivecd-0.6.0.20081211-0.20081211.2mdv2009.0.noarch.rpm
+
+Regards,
+Simon Blandford
+
+Thomas Lottmann wrote:
+> Hello!
+>
+> I used to post help about mklivecd to build a mandriva-based livecd.
+>
+> However, due to incompatibilities, I gave out.
+>
+> I have looked for the sources of the latest version of mklivecd, but I 
+> cannot find them. the sources that I find are of the old version 0.6.0.
+>
+> Is it possible to have those for the latest version (0.7.1 I think)? I 
+> would like it to be adapted for Mandriva. this tool is way to gfreat to 
+> be limited to only one distro. :-)
+>
+> Thank you by advance .
+>
+> Thomas.
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>   
+
+
+
+From skiperdrake at gmail.com  Mon Feb  9 19:48:18 2009
+From: skiperdrake at gmail.com (Thomas Lottmann)
+Date: Mon, 09 Feb 2009 19:48:18 +0100
+Subject: [Livecd-users] Getting the sources of mklivecd
+In-Reply-To: <49907464.3040102@onepointltd.com>
+References: <4973A365.4000007@gmail.com>	<d6d95ff20901190935w4f6aa6d9g5c3aa0123f6f3197@mail.gmail.com>	<6c20a9110901190946g440046f6nef956fafab6fc6a@mail.gmail.com>	<497501FF.6000900@gmail.com>	<6c20a9110901200214h200a97b0xa8240ada706a079@mail.gmail.com>	<4975C2A3.6010502@gmail.com>	<6c20a9110901200432t16008b20s379d8242d3259080@mail.gmail.com>	<49776F6E.80705@gmail.com>	<6c20a9110901211758r220d000cv4a925613bd93773f@mail.gmail.com>	<4978C059.8050207@gmail.com>	<6c20a9110901221242o7c5c9a28x4a8ec864423c8529@mail.gmail.com>	<49907011.9040702@gmail.com>
+	<49907464.3040102@onepointltd.com>
+Message-ID: <49907A72.6060006@gmail.com>
+
+Hello,
+
+Thanky ou for you answer. the problem is that this version of mklivecd 
+has no support of squashfs and instead of having an iso image of 520MB, 
+I am having a 780MB image.
+
+And anyway, having an updated version of mklivecd is better I think. 
+there have been several improvements since then.
+
+And anyway I already tried this rpm, it simply did not work (the system 
+booted in a constant loop).
+
+I'd like another solution if possible. My aim was to reboot the support 
+of mklivecd into mandriva so that it would be much easier to create its 
+own copy of the distro, and version 0.7.1 is really great. this is why.
+
+Thank you by advance for your help.
+
+Best regards,
+
+Thomas.
+
+Simon Blandford a ?crit :
+> Hi Thomas,
+>
+> A new version based on a recent SVN checkout is available in Mandriva 
+> backports. It is still labeled as an old version but with the SVN 
+> timestamp. It has patches to attempt to make it work with Mandriva 2009. 
+> Specify unionfs on the command line when using it since the default aufs 
+> doesn't work, at least not for me.
+>
+> The rpm to try is
+> mklivecd-0.6.0.20081211-0.20081211.2mdv2009.0.noarch.rpm
+>
+> Regards,
+> Simon Blandford
+>
+> Thomas Lottmann wrote:
+>   
+>> Hello!
+>>
+>> I used to post help about mklivecd to build a mandriva-based livecd.
+>>
+>> However, due to incompatibilities, I gave out.
+>>
+>> I have looked for the sources of the latest version of mklivecd, but I 
+>> cannot find them. the sources that I find are of the old version 0.6.0.
+>>
+>> Is it possible to have those for the latest version (0.7.1 I think)? I 
+>> would like it to be adapted for Mandriva. this tool is way to gfreat to 
+>> be limited to only one distro. :-)
+>>
+>> Thank you by advance .
+>>
+>> Thomas.
+>> _______________________________________________
+>> Livecd-users mailing list
+>> Livecd-users at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/livecd-users
+>>   
+>>     
+>
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>
+>   
+
+
+
+From skiperdrake at gmail.com  Wed Feb 11 20:27:13 2009
+From: skiperdrake at gmail.com (Thomas Lottmann)
+Date: Wed, 11 Feb 2009 20:27:13 +0100
+Subject: [Livecd-users] Help for building an iso for
+ Mandriva	2009.0-based distribution.
+In-Reply-To: <497460A2.6090106@gmail.com>
+References: <4973A365.4000007@gmail.com>
+	<6c20a9110901182033m3eb1addep8ab3ca14585d1c13@mail.gmail.com>
+	<497460A2.6090106@gmail.com>
+Message-ID: <49932691.5090209@gmail.com>
+
+so it is not possible to get the latest source package for PCLinuxOS 
+(0.7.1)? I don't understand. This software is under GPL, isn't it?
+
+Thomas Lottmann a ?crit :
+> Anurag Bhandari a ?crit :
+>> Thomas,
+>>
+>> In my opinion, you should try the latest PCLinuxOS version of 
+>> mklivecd. They have modified the script to use LZMA compression which 
+>> is better than the normal compression used by mklivecd. With LZMA, 
+>> you can get a 700MB image for even a 2.3GB installed system.
+>>
+>> Get the PCLOS version of mklivecd as a RPM from:
+>> http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/RPMS.testing/mklivecd-0.7.1-21pclos2007.i586.rpm
+>>
+>> Take Care.
+>>
+>> On Mon, Jan 19, 2009 at 3:17 AM, Thomas Lottmann 
+>> <skiperdrake at gmail.com <mailto:skiperdrake at gmail.com>> wrote:
+>>
+>>     Hello.
+>>
+>>     I have recently build a light weight system entirely based on
+>>     Mandriva
+>>     Linux 2009.0, but I have some difficulties and questions.
+>>
+>>     At first, the system does not contain a lot of programs and
+>>     components
+>>     (LXDE desktop, and few GTK/Gnome programs) and thought, the livecd is
+>>     still heavy, about 740MB. I would have liked it to be inferior to
+>>     700MB,
+>>     but even reducing the number of the components does nothing. The
+>>     system
+>>     is doing about 2.1GB.
+>>     Since it is aimed for old computers, do you think it is possible
+>>     to make
+>>     it launch the installation process like in the Free edition of
+>>     Mandriva.
+>>     Old systems are a bit old to launch live mode I think.
+>>
+>>     Also, it seems it does not find correctly the bootsplash. There no
+>>     bootsplash when launching the CD.
+>>
+>>     This is the first time I create a LiveCD and mklivecd looks so
+>>     easy to
+>>     use compared to draklive. Thank you for providing this tool and thank
+>>     you in advance for your help.
+>>
+>>     NB : The package livecd-utils could not install a perl package.
+>>     However
+>>     it is installed. Squashfs-utils is also installed.
+>>
+>>     Thomas Lottmann aka Skiper.
+>>     _______________________________________________
+>>     Livecd-users mailing list
+>>     Livecd-users at lists.berlios.de <mailto:Livecd-users at lists.berlios.de>
+>>     https://lists.berlios.de/mailman/listinfo/livecd-users
+>>
+>>
+>>
+>>
+>> -- 
+>> Anurag Bhandari
+>> http://anurag.granularproject.org/
+>>
+>> Founder & Project Lead,
+>> Granular Linux Project
+>> http://www.granularproject.org/
+>> http://www.granularlinux.com/
+>>   
+> Thank you very much. I will tell you the results of my next try.
+>
+> Just, do you think I should install the squashfs-lzma-kernel packages 
+> for compression? I have installed it but I don't know if it is really 
+> usefull.
+
+
+
+From anurag.bhd at gmail.com  Wed Feb 11 20:57:37 2009
+From: anurag.bhd at gmail.com (Anurag Bhandari)
+Date: Thu, 12 Feb 2009 01:27:37 +0530
+Subject: [Livecd-users] Help for building an iso for Mandriva
+	2009.0-based distribution.
+In-Reply-To: <49932691.5090209@gmail.com>
+References: <4973A365.4000007@gmail.com>
+	<6c20a9110901182033m3eb1addep8ab3ca14585d1c13@mail.gmail.com>
+	<497460A2.6090106@gmail.com> <49932691.5090209@gmail.com>
+Message-ID: <6c20a9110902111157y777e3214r733249913dc150ef@mail.gmail.com>
+
+Yes, you can. It is indeed licensed under the GPL. Due to repository
+updates, the package was shifted to the "main" section.
+
+Get if from here:
+http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/SRPMS.main/mklivecd-0.7.1-23pclos2007.src.rpm
+
+On Thu, Feb 12, 2009 at 12:57 AM, Thomas Lottmann <skiperdrake at gmail.com> wrote:
+> so it is not possible to get the latest source package for PCLinuxOS
+> (0.7.1)? I don't understand. This software is under GPL, isn't it?
+>
+> Thomas Lottmann a ?crit :
+>> Anurag Bhandari a ?crit :
+>>> Thomas,
+>>>
+>>> In my opinion, you should try the latest PCLinuxOS version of
+>>> mklivecd. They have modified the script to use LZMA compression which
+>>> is better than the normal compression used by mklivecd. With LZMA,
+>>> you can get a 700MB image for even a 2.3GB installed system.
+>>>
+>>> Get the PCLOS version of mklivecd as a RPM from:
+>>> http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/RPMS.testing/mklivecd-0.7.1-21pclos2007.i586.rpm
+>>>
+>>> Take Care.
+>>>
+>>> On Mon, Jan 19, 2009 at 3:17 AM, Thomas Lottmann
+>>> <skiperdrake at gmail.com <mailto:skiperdrake at gmail.com>> wrote:
+>>>
+>>>     Hello.
+>>>
+>>>     I have recently build a light weight system entirely based on
+>>>     Mandriva
+>>>     Linux 2009.0, but I have some difficulties and questions.
+>>>
+>>>     At first, the system does not contain a lot of programs and
+>>>     components
+>>>     (LXDE desktop, and few GTK/Gnome programs) and thought, the livecd is
+>>>     still heavy, about 740MB. I would have liked it to be inferior to
+>>>     700MB,
+>>>     but even reducing the number of the components does nothing. The
+>>>     system
+>>>     is doing about 2.1GB.
+>>>     Since it is aimed for old computers, do you think it is possible
+>>>     to make
+>>>     it launch the installation process like in the Free edition of
+>>>     Mandriva.
+>>>     Old systems are a bit old to launch live mode I think.
+>>>
+>>>     Also, it seems it does not find correctly the bootsplash. There no
+>>>     bootsplash when launching the CD.
+>>>
+>>>     This is the first time I create a LiveCD and mklivecd looks so
+>>>     easy to
+>>>     use compared to draklive. Thank you for providing this tool and thank
+>>>     you in advance for your help.
+>>>
+>>>     NB : The package livecd-utils could not install a perl package.
+>>>     However
+>>>     it is installed. Squashfs-utils is also installed.
+>>>
+>>>     Thomas Lottmann aka Skiper.
+>>>     _______________________________________________
+>>>     Livecd-users mailing list
+>>>     Livecd-users at lists.berlios.de <mailto:Livecd-users at lists.berlios.de>
+>>>     https://lists.berlios.de/mailman/listinfo/livecd-users
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>> Anurag Bhandari
+>>> http://anurag.granularproject.org/
+>>>
+>>> Founder & Project Lead,
+>>> Granular Linux Project
+>>> http://www.granularproject.org/
+>>> http://www.granularlinux.com/
+>>>
+>> Thank you very much. I will tell you the results of my next try.
+>>
+>> Just, do you think I should install the squashfs-lzma-kernel packages
+>> for compression? I have installed it but I don't know if it is really
+>> usefull.
+>
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>
+
+
+
+-- 
+Anurag Bhandari
+http://anurag.granularproject.org/
+
+Founder & Project Lead,
+Granular Linux Project
+http://www.granularproject.org/
+http://www.granularlinux.com/
+
+

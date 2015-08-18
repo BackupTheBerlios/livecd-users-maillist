@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/livecd-users/2009-January/index.html" >
+   <LINK REL="made" HREF="mailto:livecd-users%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-users%5D%20Help%20for%20building%20an%20iso%20for%0A%20Mandriva%092009.0-based%20distribution.&In-Reply-To=%3C497501FF.6000900%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000033.html">
+   <LINK REL="Next"  HREF="000035.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.</H1>
+    <B>Thomas Lottmann</B> 
+    <A HREF="mailto:livecd-users%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-users%5D%20Help%20for%20building%20an%20iso%20for%0A%20Mandriva%092009.0-based%20distribution.&In-Reply-To=%3C497501FF.6000900%40gmail.com%3E"
+       TITLE="[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.">skiperdrake at gmail.com
+       </A><BR>
+    <I>Mon Jan 19 23:43:11 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000033.html">[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.
+</A></li>
+        <LI>Next message: <A HREF="000035.html">[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#34">[ date ]</a>
+              <a href="thread.html#34">[ thread ]</a>
+              <a href="subject.html#34">[ subject ]</a>
+              <a href="author.html#34">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Well, the most recent one in the Mandriva's repositories and the one I 
+used to install is the following :
+
+        Version : 0.6.0.20081211-0.20081211.2mdv2009.0
+        Groue : Syst&#232;me/Configuration/Startup
+        Architecture : noarch
+        Size : 180 Ko
+        Media : Contrib Backports (Official2009.0-12)
+        URL : <A HREF="http://livecd.berlios.be/">http://livecd.berlios.be/</A>
+
+And the one that is not backported :
+
+        Version : 0.5.9-0.13mdv2009.0
+        Group : Systeme/Configuration/Startup
+        Architecture : noarch
+        Size : 162 Ko
+        Media : Contrib (Official2009.0-9)
+        URL : <A HREF="http://livecd.berlios.be/">http://livecd.berlios.be/</A>
+
+So I don't think they do have lzma support. And they work only when they 
+want to.
+
+If you have any further idea...
+
+Anurag Bhandari a &#233;crit :
+&gt;<i> Hmm... it seems the distro you are trying to remaster has a little bit 
+</I>&gt;<i> different structure than PCLinuxOS. You could search for a &quot;mklivecd&quot; 
+</I>&gt;<i> version of Mandriva that has lzma support.
+</I>&gt;<i>
+</I>&gt;<i> On Mon, Jan 19, 2009 at 11:05 PM, Thomas Lottmann 
+</I>&gt;<i> &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">skiperdrake at gmail.com</A> &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">skiperdrake at gmail.com</A>&gt;&gt; wrote:
+</I>&gt;<i>
+</I>&gt;<i>     Anurag, I have installed the package you gave me, however I now
+</I>&gt;<i>     have a new error message that was not occuring before :
+</I>&gt;<i>
+</I>&gt;<i>     ---------------
+</I>&gt;<i>
+</I>&gt;<i>     [<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">root at localhost</A> ~]# mklivecd --verbose --md5
+</I>&gt;<i>     /home/guest/Bureau/remaster.iso
+</I>&gt;<i>     mklivecd, version 0.7.1, <A HREF="http://livecd.berlios.de/">http://livecd.berlios.de/</A>
+</I>&gt;<i>     Copyright (C) 2002-2004, Jaco Greeff &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">jaco at puxedo.org</A>
+</I>&gt;<i>     &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">jaco at puxedo.org</A>&gt;&gt;
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>     Creating initrd:                                   [ 12.08%
+</I>&gt;<i>     00:00:00/00:00:00]cp: ne peut &#233;valuer `//etc/hotplug': Aucun
+</I>&gt;<i>     fichier ou dossier de ce type       
+</I>&gt;<i>     DIE
+</I>&gt;<i>     FATAL: Execution of 'cp -a //etc/hotplug
+</I>&gt;<i>     /tmp/mklivecd.6124/initrd.dir/etc' failed
+</I>&gt;<i>
+</I>&gt;<i>     ----------------
+</I>&gt;<i>
+</I>&gt;<i>     What should be fixed?
+</I>&gt;<i>
+</I>&gt;<i>     Thank you for your help.
+</I>&gt;<i>
+</I>&gt;<i>     2009/1/19 Anurag Bhandari &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">anurag.bhd at gmail.com</A>
+</I>&gt;<i>     &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">anurag.bhd at gmail.com</A>&gt;&gt;
+</I>&gt;<i>
+</I>&gt;<i>         Thomas,
+</I>&gt;<i>
+</I>&gt;<i>         In my opinion, you should try the latest PCLinuxOS version of
+</I>&gt;<i>         mklivecd. They have modified the script to use LZMA
+</I>&gt;<i>         compression which is better than the normal compression used
+</I>&gt;<i>         by mklivecd. With LZMA, you can get a 700MB image for even a
+</I>&gt;<i>         2.3GB installed system.
+</I>&gt;<i>
+</I>&gt;<i>         Get the PCLOS version of mklivecd as a RPM from:
+</I>&gt;<i>         <A HREF="http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/RPMS.testing/mklivecd-0.7.1-21pclos2007.i586.rpm">http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/RPMS.testing/mklivecd-0.7.1-21pclos2007.i586.rpm</A>
+</I>&gt;<i>
+</I>&gt;<i>         Take Care.
+</I>&gt;<i>
+</I>&gt;<i>         On Mon, Jan 19, 2009 at 3:17 AM, Thomas Lottmann
+</I>&gt;<i>         &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">skiperdrake at gmail.com</A> &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">skiperdrake at gmail.com</A>&gt;&gt; wrote:
+</I>&gt;<i>
+</I>&gt;<i>             Hello.
+</I>&gt;<i>
+</I>&gt;<i>             I have recently build a light weight system entirely based
+</I>&gt;<i>             on Mandriva
+</I>&gt;<i>             Linux 2009.0, but I have some difficulties and questions.
+</I>&gt;<i>
+</I>&gt;<i>             At first, the system does not contain a lot of programs
+</I>&gt;<i>             and components
+</I>&gt;<i>             (LXDE desktop, and few GTK/Gnome programs) and thought,
+</I>&gt;<i>             the livecd is
+</I>&gt;<i>             still heavy, about 740MB. I would have liked it to be
+</I>&gt;<i>             inferior to 700MB,
+</I>&gt;<i>             but even reducing the number of the components does
+</I>&gt;<i>             nothing. The system
+</I>&gt;<i>             is doing about 2.1GB.
+</I>&gt;<i>             Since it is aimed for old computers, do you think it is
+</I>&gt;<i>             possible to make
+</I>&gt;<i>             it launch the installation process like in the Free
+</I>&gt;<i>             edition of Mandriva.
+</I>&gt;<i>             Old systems are a bit old to launch live mode I think.
+</I>&gt;<i>
+</I>&gt;<i>             Also, it seems it does not find correctly the bootsplash.
+</I>&gt;<i>             There no
+</I>&gt;<i>             bootsplash when launching the CD.
+</I>&gt;<i>
+</I>&gt;<i>             This is the first time I create a LiveCD and mklivecd
+</I>&gt;<i>             looks so easy to
+</I>&gt;<i>             use compared to draklive. Thank you for providing this
+</I>&gt;<i>             tool and thank
+</I>&gt;<i>             you in advance for your help.
+</I>&gt;<i>
+</I>&gt;<i>             NB : The package livecd-utils could not install a perl
+</I>&gt;<i>             package. However
+</I>&gt;<i>             it is installed. Squashfs-utils is also installed.
+</I>&gt;<i>
+</I>&gt;<i>             Thomas Lottmann aka Skiper.
+</I>&gt;<i>             _______________________________________________
+</I>&gt;<i>             Livecd-users mailing list
+</I>&gt;<i>             <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>
+</I>&gt;<i>             &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>&gt;
+</I>&gt;<i>             <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">https://lists.berlios.de/mailman/listinfo/livecd-users</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>         -- 
+</I>&gt;<i>         Anurag Bhandari
+</I>&gt;<i>         <A HREF="http://anurag.granularproject.org/">http://anurag.granularproject.org/</A>
+</I>&gt;<i>
+</I>&gt;<i>         Founder &amp; Project Lead,
+</I>&gt;<i>         Granular Linux Project
+</I>&gt;<i>         <A HREF="http://www.granularproject.org/">http://www.granularproject.org/</A>
+</I>&gt;<i>         <A HREF="http://www.granularlinux.com/">http://www.granularlinux.com/</A>
+</I>&gt;<i>
+</I>&gt;<i>         _______________________________________________
+</I>&gt;<i>         Livecd-users mailing list
+</I>&gt;<i>         <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>
+</I>&gt;<i>         &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>&gt;
+</I>&gt;<i>         <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">https://lists.berlios.de/mailman/listinfo/livecd-users</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>     _______________________________________________
+</I>&gt;<i>     Livecd-users mailing list
+</I>&gt;<i>     <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A> &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>&gt;
+</I>&gt;<i>     <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">https://lists.berlios.de/mailman/listinfo/livecd-users</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> -- 
+</I>&gt;<i> Anurag Bhandari
+</I>&gt;<i> <A HREF="http://anurag.granularproject.org/">http://anurag.granularproject.org/</A>
+</I>&gt;<i>
+</I>&gt;<i> Founder &amp; Project Lead,
+</I>&gt;<i> Granular Linux Project
+</I>&gt;<i> <A HREF="http://www.granularproject.org/">http://www.granularproject.org/</A>
+</I>&gt;<i> <A HREF="http://www.granularlinux.com/">http://www.granularlinux.com/</A>
+</I>&gt;<i> ------------------------------------------------------------------------
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Livecd-users mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">https://lists.berlios.de/mailman/listinfo/livecd-users</A>
+</I>&gt;<i>   
+</I>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/livecd-users/attachments/20090119/b063f5bf/attachment.html">https://lists.berlios.de/pipermail/livecd-users/attachments/20090119/b063f5bf/attachment.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000033.html">[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.
+</A></li>
+	<LI>Next message: <A HREF="000035.html">[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#34">[ date ]</a>
+              <a href="thread.html#34">[ thread ]</a>
+              <a href="subject.html#34">[ subject ]</a>
+              <a href="author.html#34">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/livecd-users">More information about the Livecd-users
+mailing list</a><br>
+</body></html>

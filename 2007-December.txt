@@ -1,0 +1,206 @@
+From didouph at hotmail.com  Tue Dec  4 01:26:40 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Tue, 4 Dec 2007 00:26:40 +0000
+Subject: [Livecd-users] new tools
+Message-ID: <BAY126-W60E6ABEF70A3DCAFF7467FA46D0@phx.gbl>
+
+
+Hi all
+
+I want to point you to some new tools being developed around mklivecd 
+script and livecd framework @ mypclinuxos.com
+
+Remaster GUI is an attempt to give mklivecd a gui front-end to remaster 
+for the average joe to be able to remaster/backup his system in no time
+http://www.mypclinuxos.com/forum/index.php?board=85.0
+(the project just got set-up and is based on this tread : 
+http://www.mypclinuxos.com/forum/index.php?topic=1433.0 )
+
+Poor Man's Install Script / Live USB ... is a poorman install project 
+aiming to get a usb dongle/key/flash behave like a livecd but with write 
+access and change being saved to it ... a real portable OS
+http://www.mypclinuxos.com/forum/index.php?board=84.0
+
+Despite the fact that those are hosted on a pclinuxos project site, it 
+doesn't mean those are pclinuxos centric or pclinuxos only ... they are 
+open and willing for external imput (mandriva ? mcn live ? ... )
+
+thanks for your attention
+
+bye
+
+DidouPh
+
+
+_________________________________________________________________
+D?couvrez le blog Messenger Le Meilleur du Web : toutes les vid?os qui buzzent le plus sur Internet !
+http://meilleurduweb.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20071204/596d9a8b/attachment.html>
+
+From didouph at hotmail.com  Wed Dec  5 23:18:19 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Wed, 5 Dec 2007 22:18:19 +0000
+Subject: [Livecd-users] new developer
+Message-ID: <BAY126-W8C1C0CC3741850389D67EA46E0@phx.gbl>
+
+
+hi all,
+
+I'd like to introduce Paul Grinberg.
+He's the author of the Remaster-gui I recently introduced to you.
+He will be implementing this gui as a part of the livecd framework.
+Since this gui is a front-end to mklivecd ... there might virtually be 
+no reason for the gui code to influence the mklivecd script and 
+livecd-utils code.
+
+DidouPh
+
+
+_________________________________________________________________
+D?couvrez le blog Messenger Le Meilleur du Web : toutes les vid?os qui buzzent le plus sur Internet !
+http://meilleurduweb.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20071205/f29e0325/attachment.html>
+
+From vampirefo at yahoo.com  Fri Dec  7 02:02:02 2007
+From: vampirefo at yahoo.com (vampire fo)
+Date: Thu, 6 Dec 2007 17:02:02 -0800 (PST)
+Subject: [Livecd-users] new developer
+In-Reply-To: <BAY126-W8C1C0CC3741850389D67EA46E0@phx.gbl>
+Message-ID: <488568.57409.qm@web38112.mail.mud.yahoo.com>
+
+Glad to see this group is still alive, LOL.
+
+Anyway, I would like to see an option in mklivecd that
+would allow one to install the created iso directly
+rather than have to boot from it into livecd mode.
+then install.
+
+Is an option like this going to be available in future
+releases or is it up to the hosting distro to create this?
+
+Best Regards
+Vampirefo
+
+
+      ____________________________________________________________________________________
+Be a better friend, newshound, and 
+know-it-all with Yahoo! Mobile.  Try it now.  http://mobile.yahoo.com/;_ylt=Ahu06i62sR8HDtDypao8Wcj9tAcJ 
+
+
+
+From didouph at hotmail.com  Fri Dec  7 22:46:14 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Fri, 7 Dec 2007 21:46:14 +0000
+Subject: [Livecd-users] new feature
+Message-ID: <BAY126-W116D3BAF0E4559ED14DE1A4680@phx.gbl>
+
+
+hi
+
+The option you're referring to is rather a boot option more than a 
+livecd option and the the overall task you're wishing to see endorsed by 
+the livecd tools isn't (as far as i can tell) possible. in other word, 
+it's possible to boot/start an x server then directly go to the install 
+section or to the desktop mode with livecd... other features are just 
+not livecd ...
+
+So yest it's likely to be done with livecd and eventually with an option 
+from the livecd initial boot screen (grub?) and with custom boot image 
+to go right away into install mode without a "live" desktop loggin or to 
+mockup a minimal gui loading like for drak3d and install with a loggin 
+screen hack ... but that would be in my very opinion against the livecd 
+philosophy itself.
+
+It doesn't sounds to me that there is anything to be added to the livecd 
+framework to do this, but rather something to be hacked in from the "pre 
+remaster" state of the system in order to allow this !
+
+Something else ...
+
+Since you wrote a gui to mklivecd too ... why don't you join gri in the 
+developement of his gui (perl/tk) and the port of it to perl/gtk and 
+maybe a blend with yours
+
+anyways i will forward this message to the livecd developer list.
+
+thanks for your input.
+
+DidouPh
+
+livecd-users-request at lists.berlios.de a ?crit :
+> Send Livecd-users mailing list submissions to
+> 	livecd-users at lists.berlios.de
+> 
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://lists.berlios.de/mailman/listinfo/livecd-users
+> or, via email, send a message with subject or body 'help' to
+> 	livecd-users-request at lists.berlios.de
+> 
+> You can reach the person managing the list at
+> 	livecd-users-owner at lists.berlios.de
+> 
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Livecd-users digest..."
+> 
+> 
+> Today's Topics:
+> 
+>    1. Re: new developer (vampire fo)
+> 
+> 
+> ----------------------------------------------------------------------
+> 
+> Message: 1
+> Date: Thu, 6 Dec 2007 17:02:02 -0800 (PST)
+> From: vampire fo 
+> Subject: Re: [Livecd-users] new developer
+> To: LiveCD users list 
+> Message-ID: 
+> Content-Type: text/plain; charset=iso-8859-1
+> 
+> Glad to see this group is still alive, LOL.
+> 
+> Anyway, I would like to see an option in mklivecd that
+> would allow one to install the created iso directly
+> rather than have to boot from it into livecd mode.
+> then install.
+> 
+> Is an option like this going to be available in future
+> releases or is it up to the hosting distro to create this?
+> 
+> Best Regards
+> Vampirefo
+> 
+> 
+>       ____________________________________________________________________________________
+> Be a better friend, newshound, and 
+> know-it-all with Yahoo! Mobile.  Try it now.  http://mobile.yahoo.com/;_ylt=Ahu06i62sR8HDtDypao8Wcj9tAcJ 
+> 
+> 
+> 
+> ------------------------------
+> 
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+> 
+> 
+> End of Livecd-users Digest, Vol 12, Issue 3
+> *******************************************
+> 
+> 
+
+
+
+_________________________________________________________________
+Votez pour vos s?ries TV pr?f?r?es et tentez de gagner un voyage ? Hawa? !
+http://messengerawards.divertissements.fr.msn.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20071207/2883c712/attachment.html>
+

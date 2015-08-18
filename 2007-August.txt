@@ -1,0 +1,36 @@
+From nzimas at gmail.com  Wed Aug 22 02:05:51 2007
+From: nzimas at gmail.com (Nuno Zimas)
+Date: Tue, 21 Aug 2007 17:05:51 -0700
+Subject: [Livecd-users] Hey Livecd-users@lists.berlios.de ;)
+Message-ID: <991286022.1187741152412.JavaMail.root@sfapp147>
+
+
+
+
+http://www.hi5.com/register/CGKvQ?inviteId=A_8d1d9ad_kk6462Jzc6l147970477
+
+Nuno
+
+
+From fbongat at lmd.ens.fr  Wed Aug 29 13:06:54 2007
+From: fbongat at lmd.ens.fr (Frederic Bongat)
+Date: Wed, 29 Aug 2007 13:06:54 +0200
+Subject: [Livecd-users] Default options for the fstab on LiveCD
+Message-ID: <46D5534E.1000903@lmd.ens.fr>
+
+Hello,
+
+I would like to create LiveCD which automatically doesn't mount  the
+files systems already existing on a hard disk when I boot.
+When I use a livecd created with mklivecd it systematically mount all
+the partitions which it finds on the disc. I do not want this operation
+by defect.
+
+What are the good options ? How to do that ?
+must I modify the files rc.sysinit, hwdetect or mklivecd ?
+
+mklivecd --fstab=noauto /home/LiveCD.iso doesnt work.
+
+Thanks for your help.
+
+

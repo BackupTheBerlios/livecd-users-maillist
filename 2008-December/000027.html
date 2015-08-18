@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Livecd-users] Error: No suitable media for the livecd content found
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/livecd-users/2008-December/index.html" >
+   <LINK REL="made" HREF="mailto:livecd-users%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-users%5D%20Error%3A%20No%20suitable%20media%20for%20the%20livecd%20content%20found&In-Reply-To=%3C6c20a9110812300020p3f983ca7v29efb9481f509e52%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Livecd-users] Error: No suitable media for the livecd content found</H1>
+    <B>Anurag Bhandari</B> 
+    <A HREF="mailto:livecd-users%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-users%5D%20Error%3A%20No%20suitable%20media%20for%20the%20livecd%20content%20found&In-Reply-To=%3C6c20a9110812300020p3f983ca7v29efb9481f509e52%40mail.gmail.com%3E"
+       TITLE="[Livecd-users] Error: No suitable media for the livecd content found">anurag.bhd at gmail.com
+       </A><BR>
+    <I>Tue Dec 30 09:20:07 CET 2008</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#27">[ date ]</a>
+              <a href="thread.html#27">[ thread ]</a>
+              <a href="subject.html#27">[ subject ]</a>
+              <a href="author.html#27">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello,
+
+The preparations for the final release of Granular 1.0 are on, and
+currently, the testing phase of the ISO is in progress. During testing, I
+found out that booting the ISO results in this error:
+
+Error: No suitable media for the livecd content found.
+Workaround: Copy the content of the livecd from your boot device to an
+IDE/SATA disk
+
+This is during the booting phase when &quot;linuxrc&quot; routine of mklivecd is in
+progress. The error occurs just after the &quot;Probing USB&quot; process gets over.
+
+I checked out the &quot;linuxrc&quot; script for any clues and found out that the
+error could be popping up due to the variable &quot;CROM_LIST&quot; being empty.
+
+Does this mean that no CDROM devices are being detected? Could it be that
+the usb/ide cdrom drivers are missing, or need to be updated to a newer
+version?
+
+What could be the solution to this issue?
+
+Thanks.
+
+-- 
+Anurag Bhandari
+<A HREF="http://anurag.granularproject.org/">http://anurag.granularproject.org/</A>
+
+Founder &amp; Project Lead,
+Granular Linux Project
+<A HREF="http://www.granularproject.org/">http://www.granularproject.org/</A>
+<A HREF="http://www.granularlinux.com/">http://www.granularlinux.com/</A>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/livecd-users/attachments/20081230/f8b315b9/attachment.html">https://lists.berlios.de/pipermail/livecd-users/attachments/20081230/f8b315b9/attachment.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#27">[ date ]</a>
+              <a href="thread.html#27">[ thread ]</a>
+              <a href="subject.html#27">[ subject ]</a>
+              <a href="author.html#27">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/livecd-users">More information about the Livecd-users
+mailing list</a><br>
+</body></html>

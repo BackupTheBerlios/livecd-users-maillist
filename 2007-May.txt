@@ -1,0 +1,133 @@
+From fbongat at lmd.ens.fr  Wed May 30 16:42:35 2007
+From: fbongat at lmd.ens.fr (Frederic Bongat)
+Date: Wed, 30 May 2007 16:42:35 +0200
+Subject: [Livecd-users] problem with mandriva 2007.1 and mklivecd
+Message-ID: <465D8D5B.9040105@lmd.ens.fr>
+
+Hi,
+
+I have a problem with mklivecd and mandriva 2007.1
+
+when I boot with a livecd, I have the messages :
+
+searching for the loop image :    /dev/sdc [DONE]
+ERROR: Unable to mount the livecd
+Dropping you to a limited shell
+loading /initrd/bin/ash
+BusyBox v1.1.2 (2006.12.14-05:46+0000) Built-in shell (ash)
+Enter 'help' for a list of buit-in commands.
+/initrd/bin/ash: can't access tty; job control turned off
+
+and my livecd is out
+
+I use the mklivecd from cvs (version 0.6.0-20070530). It's same with
+older version.
+My kernel : kernel-2.6.17.14mdv-1-1mdv2007.1
+
+What happened ? Doesnt it work with mandriva ?
+Thanks a lot for your help
+
+Frederic
+
+
+
+
+
+
+From vampirefo at yahoo.com  Wed May 30 21:52:54 2007
+From: vampirefo at yahoo.com (vampire fo)
+Date: Wed, 30 May 2007 12:52:54 -0700 (PDT)
+Subject: [Livecd-users] problem with mandriva 2007.1 and mklivecd
+In-Reply-To: <465D8D5B.9040105@lmd.ens.fr>
+Message-ID: <164763.57988.qm@web31814.mail.mud.yahoo.com>
+
+my program was built for pclinuxos, should work for
+mandriva 2007.1 in theory seeing pclinuxos is based
+off  mandriva.
+
+anyway the error seems like a bad burn, did you burn
+the iso at low speed, also have you tried to run the
+iso with qemu?
+
+I always test iso with qemu before i burn them.
+
+--- Frederic Bongat <fbongat at lmd.ens.fr> wrote:
+
+> Hi,
+> 
+> I have a problem with mklivecd and mandriva 2007.1
+> 
+> when I boot with a livecd, I have the messages :
+> 
+> searching for the loop image :    /dev/sdc [DONE]
+> ERROR: Unable to mount the livecd
+> Dropping you to a limited shell
+> loading /initrd/bin/ash
+> BusyBox v1.1.2 (2006.12.14-05:46+0000) Built-in
+> shell (ash)
+> Enter 'help' for a list of buit-in commands.
+> /initrd/bin/ash: can't access tty; job control
+> turned off
+> 
+> and my livecd is out
+> 
+> I use the mklivecd from cvs (version
+> 0.6.0-20070530). It's same with
+> older version.
+> My kernel : kernel-2.6.17.14mdv-1-1mdv2007.1
+> 
+> What happened ? Doesnt it work with mandriva ?
+> Thanks a lot for your help
+> 
+> Frederic
+> 
+> 
+> 
+> 
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+>
+https://lists.berlios.de/mailman/listinfo/livecd-users
+> 
+
+
+Best Regards
+Vampirefo
+
+
+       
+____________________________________________________________________________________Choose the right car based on your needs.  Check out Yahoo! Autos new Car Finder tool.
+http://autos.yahoo.com/carfinder/
+
+
+From fbongat at lmd.ens.fr  Thu May 31 09:15:20 2007
+From: fbongat at lmd.ens.fr (Frederic Bongat)
+Date: Thu, 31 May 2007 09:15:20 +0200
+Subject: [Livecd-users] problem with mandriva 2007.1 and mklivecd
+In-Reply-To: <164763.57988.qm@web31814.mail.mud.yahoo.com>
+References: <164763.57988.qm@web31814.mail.mud.yahoo.com>
+Message-ID: <465E7608.5080305@lmd.ens.fr>
+
+Hi,
+> my program was built for pclinuxos, should work for
+> mandriva 2007.1 in theory seeing pclinuxos is based
+> off  mandriva.
+so I don't see why it doesn't work too. I had this problem with cooker 
+(devel 2007) but with the cvs new version, it was ok. But now with 
+official it doesnt work. May be a problem with the kernel ?
+
+> 
+> anyway the error seems like a bad burn, did you burn
+> the iso at low speed, also have you tried to run the
+> iso with qemu?
+> 
+> I always test iso with qemu before i burn them.
+> 
+I use vmware and qemu too for testing the iso, and the problem is always 
+present. I did not test by burnig the image as long as work not.
+
+-- 
+Frederic
+
+

@@ -1,0 +1,175 @@
+From tom_kelly33 at yahoo.com  Tue Jan  9 03:45:30 2007
+From: tom_kelly33 at yahoo.com (Tom Kelly)
+Date: Mon, 8 Jan 2007 18:45:30 -0800 (PST)
+Subject: [Livecd-users] New Year 2007
+Message-ID: <929066.45362.qm@web51003.mail.yahoo.com>
+
+I hope everyone had a wonderful Christmas
+and that 2007 will be a great year for us all.
+I plan to check in some changes soon,
+courtesy of 'etjr' who has been working on some
+fixes.
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+
+From dieter at d-schuetze.de  Sat Jan 20 11:47:45 2007
+From: dieter at d-schuetze.de (=?ISO-8859-15?Q?Dieter_Sch=FCtze?=)
+Date: Sat, 20 Jan 2007 11:47:45 +0100
+Subject: [Livecd-users] mklivecd 2007,0
+Message-ID: <45B1F351.90207@d-schuetze.de>
+
+Hello,
+is there a chance to get changes=/dev/... to work with Mandriva Linux
+2007.0 ?
+
+Regards
+
+Dieter
+
+
+From ikerekes at gmail.com  Sat Jan 20 16:07:54 2007
+From: ikerekes at gmail.com (Ivan Kerekes)
+Date: Sat, 20 Jan 2007 08:07:54 -0700
+Subject: [Livecd-users] mklivecd 2007,0
+In-Reply-To: <45B1F351.90207@d-schuetze.de>
+References: <45B1F351.90207@d-schuetze.de>
+Message-ID: <cb64dfd40701200707v5f1b1112n48d3c5be4771d0b6@mail.gmail.com>
+
+On 1/20/07, Dieter Sch?tze <dieter at d-schuetze.de> wrote:
+> Hello,
+> is there a chance to get changes=/dev/... to work with Mandriva Linux
+> 2007.0 ?
+>
+> Regards
+>
+> Dieter
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>
+Hi Dieter
+
+As you probably know, Mandriva One uses a totally different schema as
+mklivecd. They mount everything on /live the mklivecd mounts
+everything on /initrd. Mandriva doesn't use rc.sysinit at all (That's
+the place the changes=/dev is interpreted.). They CD-rom search based
+on the LABEL parameter, mklivecd does an active device search...
+I believe it could be done but it would mean a major rework of the
+Mandriva One linuxrc.
+
+
+-- 
+-- 
+Ivan Kerekes
+
+
+From dieter at d-schuetze.de  Sat Jan 20 16:41:24 2007
+From: dieter at d-schuetze.de (=?ISO-8859-1?Q?Dieter_Sch=FCtze?=)
+Date: Sat, 20 Jan 2007 16:41:24 +0100
+Subject: [Livecd-users] mklivecd 2007,0
+In-Reply-To: <cb64dfd40701200707v5f1b1112n48d3c5be4771d0b6@mail.gmail.com>
+References: <45B1F351.90207@d-schuetze.de>
+	<cb64dfd40701200707v5f1b1112n48d3c5be4771d0b6@mail.gmail.com>
+Message-ID: <45B23824.3010906@d-schuetze.de>
+
+Sorry Ivan,
+i don't ask for Mandriva One
+I'm using Mandriva 2007.0 and the rc.sysinit is in use on every startup.
+
+Regards
+
+Dieter
+
+Ivan Kerekes schrieb:
+> On 1/20/07, Dieter Sch?tze <dieter at d-schuetze.de> wrote:
+>> Hello,
+>> is there a chance to get changes=/dev/... to work with Mandriva Linux
+>> 2007.0 ?
+>>
+>> Regards
+>>
+>> Dieter
+>> _______________________________________________
+>> Livecd-users mailing list
+>> Livecd-users at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/livecd-users
+>>
+> Hi Dieter
+> 
+> As you probably know, Mandriva One uses a totally different schema as
+> mklivecd. They mount everything on /live the mklivecd mounts
+> everything on /initrd. Mandriva doesn't use rc.sysinit at all (That's
+> the place the changes=/dev is interpreted.). They CD-rom search based
+> on the LABEL parameter, mklivecd does an active device search...
+> I believe it could be done but it would mean a major rework of the
+> Mandriva One linuxrc.
+> 
+> 
+
+
+
+From ikerekes at gmail.com  Sat Jan 20 16:57:51 2007
+From: ikerekes at gmail.com (Ivan Kerekes)
+Date: Sat, 20 Jan 2007 08:57:51 -0700
+Subject: [Livecd-users] mklivecd 2007,0
+In-Reply-To: <45B23824.3010906@d-schuetze.de>
+References: <45B1F351.90207@d-schuetze.de>
+	<cb64dfd40701200707v5f1b1112n48d3c5be4771d0b6@mail.gmail.com>
+	<45B23824.3010906@d-schuetze.de>
+Message-ID: <cb64dfd40701200757n5ddf5e28hea552239fe598855@mail.gmail.com>
+
+On 1/20/07, Dieter Sch?tze <dieter at d-schuetze.de> wrote:
+> Sorry Ivan,
+> i don't ask for Mandriva One
+> I'm using Mandriva 2007.0 and the rc.sysinit is in use on every startup.
+>
+> Regards
+>
+> Dieter
+>
+> Ivan Kerekes schrieb:
+> > On 1/20/07, Dieter Sch?tze <dieter at d-schuetze.de> wrote:
+> >> Hello,
+> >> is there a chance to get changes=/dev/... to work with Mandriva Linux
+> >> 2007.0 ?
+> >>
+> >> Regards
+> >>
+> >> Dieter
+> >> _______________________________________________
+> >> Livecd-users mailing list
+> >> Livecd-users at lists.berlios.de
+> >> https://lists.berlios.de/mailman/listinfo/livecd-users
+> >>
+> > Hi Dieter
+> >
+> > As you probably know, Mandriva One uses a totally different schema as
+> > mklivecd. They mount everything on /live the mklivecd mounts
+> > everything on /initrd. Mandriva doesn't use rc.sysinit at all (That's
+> > the place the changes=/dev is interpreted.). They CD-rom search based
+> > on the LABEL parameter, mklivecd does an active device search...
+> > I believe it could be done but it would mean a major rework of the
+> > Mandriva One linuxrc.
+> >
+> >
+>
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>
+My mistake! You mean a remastered 2007?
+There has been a lots of changes to the mklivecd but we tested only
+with PCLinuxOS.
+I will test with mandy, and if they work I will check in the CVS.
+
+-- 
+-- 
+Ivan Kerekes
+
+

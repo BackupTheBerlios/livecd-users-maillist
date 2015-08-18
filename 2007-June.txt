@@ -1,0 +1,51 @@
+From simon at polkaspots.com  Sat Jun 16 18:00:32 2007
+From: simon at polkaspots.com (Simon Morley)
+Date: Sat, 16 Jun 2007 17:00:32 +0100
+Subject: [Livecd-users] Problem Installing RPM
+Message-ID: <3317D011-DBF5-4DC0-B5CA-F1BFB017D412@polkaspots.com>
+
+Hi,
+
+I'm trying to install the most recent version of the mklivecd rpm,  
+however I'm getting totally stuck. I keep getting the following errors:
+
+perl(c) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(common) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(detect_devices) is needed by  
+mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(do_pkgs) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(fs) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(fsedit) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(harddrake::autoconf) is needed by  
+mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(harddrake::data) is needed by  
+mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(harddrake::sound) is needed by  
+mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(keyboard) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(modules) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(mouse) is needed by mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(run_program) is needed by  
+mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(standalone) is needed by  
+mklivecd-0.6.0-20060422.1mdk.noarch
+         perl(threads::shared) is needed by  
+mklivecd-0.6.0-20060422.1mdk.noarch
+
+I've checked whether perl etc. is installed and don't know what to do  
+next.
+
+Thanks,
+
+Simon
+-------------- next part --------------
+
+
+******************************
+
+This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the postmaster at postmaster at polkaspots.com.
+
+PolkaSpots is registered in the UK, Number 05508107. 145 - 157 St. John Street, London EC1V 4PY
+
+******************************
+

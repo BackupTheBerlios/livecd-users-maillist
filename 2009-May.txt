@@ -1,0 +1,110 @@
+From skiperdrake at gmail.com  Wed May 27 17:06:43 2009
+From: skiperdrake at gmail.com (Thomas Lottmann)
+Date: Wed, 27 May 2009 17:06:43 +0200
+Subject: [Livecd-users] Help for building an iso for
+ Mandriva	2009.0-based distribution.
+In-Reply-To: <6c20a9110901182033m3eb1addep8ab3ca14585d1c13@mail.gmail.com>
+References: <4973A365.4000007@gmail.com>
+	<6c20a9110901182033m3eb1addep8ab3ca14585d1c13@mail.gmail.com>
+Message-ID: <4A1D5703.3010100@gmail.com>
+
+Hello!
+
+I've decided to come back to mklivecd, but I have a problem : after 
+havin taken the hotplug fonction in the code that does not work under 
+Mandriva Linux, I now get the following error :
+
+
+chmod 644 /tmp/mklivecd.14645/livecd/livecd.sqfs [100.00% 
+00:00:00/00:00:00]chmod: ne peut acc?der 
+`/tmp/mklivecd.14645/livecd/livecd.sqfs': Aucun fichier ou dossier de ce 
+type
+DIE
+FATAL: Execution of 'chmod 644 /tmp/mklivecd.14645/livecd/livecd.sqfs' 
+failed
+
+
+This is obtained using the latest version of mklivecd. The older 
+versions are trash.
+
+I would like to make work mklivecd under Mandriva Linux, if possible. It 
+is much easier than Draklive.
+
+Thank you by advance if you have any idea.
+
+Thomas Lottmann aka Skiper
+
+Anurag Bhandari a ?crit :
+> Thomas,
+>
+> In my opinion, you should try the latest PCLinuxOS version of 
+> mklivecd. They have modified the script to use LZMA compression which 
+> is better than the normal compression used by mklivecd. With LZMA, you 
+> can get a 700MB image for even a 2.3GB installed system.
+>
+> Get the PCLOS version of mklivecd as a RPM from:
+> http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/RPMS.testing/mklivecd-0.7.1-21pclos2007.i586.rpm
+>
+> Take Care.
+>
+> On Mon, Jan 19, 2009 at 3:17 AM, Thomas Lottmann 
+> <skiperdrake at gmail.com <mailto:skiperdrake at gmail.com>> wrote:
+>
+>     Hello.
+>
+>     I have recently build a light weight system entirely based on Mandriva
+>     Linux 2009.0, but I have some difficulties and questions.
+>
+>     At first, the system does not contain a lot of programs and components
+>     (LXDE desktop, and few GTK/Gnome programs) and thought, the livecd is
+>     still heavy, about 740MB. I would have liked it to be inferior to
+>     700MB,
+>     but even reducing the number of the components does nothing. The
+>     system
+>     is doing about 2.1GB.
+>     Since it is aimed for old computers, do you think it is possible
+>     to make
+>     it launch the installation process like in the Free edition of
+>     Mandriva.
+>     Old systems are a bit old to launch live mode I think.
+>
+>     Also, it seems it does not find correctly the bootsplash. There no
+>     bootsplash when launching the CD.
+>
+>     This is the first time I create a LiveCD and mklivecd looks so easy to
+>     use compared to draklive. Thank you for providing this tool and thank
+>     you in advance for your help.
+>
+>     NB : The package livecd-utils could not install a perl package.
+>     However
+>     it is installed. Squashfs-utils is also installed.
+>
+>     Thomas Lottmann aka Skiper.
+>     _______________________________________________
+>     Livecd-users mailing list
+>     Livecd-users at lists.berlios.de <mailto:Livecd-users at lists.berlios.de>
+>     https://lists.berlios.de/mailman/listinfo/livecd-users
+>
+>
+>
+>
+> -- 
+> Anurag Bhandari
+> http://anurag.granularproject.org/
+>
+> Founder & Project Lead,
+> Granular Linux Project
+> http://www.granularproject.org/
+> http://www.granularlinux.com/
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>   
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20090527/b185d9f0/attachment.html>
+

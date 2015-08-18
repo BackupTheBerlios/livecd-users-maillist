@@ -1,0 +1,121 @@
+From tom_kelly33 at yahoo.com  Mon Nov 19 14:25:10 2007
+From: tom_kelly33 at yahoo.com (Tom Kelly)
+Date: Mon, 19 Nov 2007 05:25:10 -0800 (PST)
+Subject: [Livecd-users] New Addition to the Team
+Message-ID: <407712.54376.qm@web51008.mail.re2.yahoo.com>
+
+Please welcome Didouph to the team.
+He has been working with PCLOS for 
+some time now and will help take over
+the MkLiveCD site.
+
+Thanks,
+
+Tom
+
+
+
+      ____________________________________________________________________________________
+Get easy, one-click access to your favorites. 
+Make Yahoo! your homepage.
+http://www.yahoo.com/r/hs 
+
+
+From yochenhsieh at xuite.net  Wed Nov 21 12:11:13 2007
+From: yochenhsieh at xuite.net (You-Cheng Hsieh)
+Date: Wed, 21 Nov 2007 19:11:13 +0800
+Subject: [Livecd-users] New Addition to the Team
+In-Reply-To: <407712.54376.qm@web51008.mail.re2.yahoo.com>
+References: <407712.54376.qm@web51008.mail.re2.yahoo.com>
+Message-ID: <c1bea1b26759.474482d1@xuite.net>
+
+Tom Kelly 
+> Please welcome Didouph to the team.
+> He has been working with PCLOS for 
+> some time now and will help take over
+> the MkLiveCD site.
+PCLOS?
+
+Is there any member of the "team" working with Mandriva?
+If none, I'm going to unsubscribe this list.
+
+
+From didouph at hotmail.com  Thu Nov 22 15:34:37 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Thu, 22 Nov 2007 14:34:37 +0000
+Subject: [Livecd-users] Livecd-users Digest, Vol 11, Issue 2
+Message-ID: <BAY126-W149D206389FBDFFF0E46AA4790@phx.gbl>
+
+
+livecd-users-request at lists.berlios.de a ?crit :
+> Send Livecd-users mailing list submissions to
+> 	livecd-users at lists.berlios.de
+> 
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://lists.berlios.de/mailman/listinfo/livecd-users
+> or, via email, send a message with subject or body 'help' to
+> 	livecd-users-request at lists.berlios.de
+> 
+> You can reach the person managing the list at
+> 	livecd-users-owner at lists.berlios.de
+> 
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Livecd-users digest..."
+> 
+> 
+> Today's Topics:
+> 
+>    1. Re: New Addition to the Team (You-Cheng Hsieh)
+> 
+> 
+> ----------------------------------------------------------------------
+> 
+> Message: 1
+> Date: Wed, 21 Nov 2007 19:11:13 +0800
+> From: You-Cheng Hsieh 
+> Subject: Re: [Livecd-users] New Addition to the Team
+> To: LiveCD users list 
+> Message-ID: 
+> Content-Type: text/plain; charset=us-ascii
+> 
+> Tom Kelly 
+>> Please welcome Didouph to the team.
+>> He has been working with PCLOS for 
+>> some time now and will help take over
+>> the MkLiveCD site.
+> PCLOS?
+> 
+> Is there any member of the "team" working with Mandriva?
+> If none, I'm going to unsubscribe this list.
+> 
+> 
+> ------------------------------
+> 
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+> 
+> 
+> End of Livecd-users Digest, Vol 11, Issue 2
+> *******************************************
+> 
+> 
+Don't worry ... there s no reason to cut down the compatibility with 
+mandriva and there is at the very moment only few livecd features that 
+don't apply to mandriva ... but yes, indeed the mandriva developers are 
+not that involved in this project despite the fact that at least you and 
+  i want to see more of them !
+
+yours
+
+DidouPh
+
+
+_________________________________________________________________
+Votez pour vos acteurs de s?ries TV pr?f?r?s et tentez de gagner un voyage ? Hawa? !
+http://messengerawards.divertissements.fr.msn.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20071122/66130803/attachment.html>
+

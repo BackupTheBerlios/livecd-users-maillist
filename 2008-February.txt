@@ -1,0 +1,367 @@
+From anurag.bhd at gmail.com  Mon Feb  4 12:26:43 2008
+From: anurag.bhd at gmail.com (Anurag Bhandari)
+Date: Mon, 4 Feb 2008 16:56:43 +0530
+Subject: [Livecd-users] ISO compression
+Message-ID: <6c20a9110802040326y314ec6a1if810b050443c580d@mail.gmail.com>
+
+Hello,
+
+I am the lead developer and team lead at Granular Linux Project (
+http://www.granularproject.org/). Granular Linux is a PCLinuxOS based
+distro. While making preparations for the next release of Granular, a
+thought related to the ISO image compression came to my mind, so just wanted
+to discuss that with you.
+
+I was wondering if it is possible to increase the default compression ratio
+for the final iso image that is prepared by the (great) mklivecd script?
+Say, with 2.1-2.2GB uncompressed (installed) system, one can get a 700MB cd
+image, is it possible to get the same 700 MB (approx) CD with 2.3 GB or
+greater uncompressed content? If so, could you please guide me through the
+procedure to achieve that? Or just point me to the appropriate location to
+do the same, I would handle the rest.
+
+Take Care.
+
+-- 
+Anurag Bhandari
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080204/db3ecfdb/attachment.html>
+
+From didouph at hotmail.com  Wed Feb  6 08:54:37 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Wed, 6 Feb 2008 07:54:37 +0000
+Subject: [Livecd-users] Livecd-users Digest, Vol 13, Issue 1
+Message-ID: <BAY126-W570595EB0F7A3EAAF7EEAFA42D0@phx.gbl>
+
+
+livecd-users-request at lists.berlios.de a ?crit :
+> Send Livecd-users mailing list submissions to
+> 	livecd-users at lists.berlios.de
+> 
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://lists.berlios.de/mailman/listinfo/livecd-users
+> or, via email, send a message with subject or body 'help' to
+> 	livecd-users-request at lists.berlios.de
+> 
+> You can reach the person managing the list at
+> 	livecd-users-owner at lists.berlios.de
+> 
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Livecd-users digest..."
+> 
+> 
+> Today's Topics:
+> 
+>    1. ISO compression (Anurag Bhandari)
+> 
+> 
+> ----------------------------------------------------------------------
+> 
+> Message: 1
+> Date: Mon, 4 Feb 2008 16:56:43 +0530
+> From: "Anurag Bhandari" 
+> Subject: [Livecd-users] ISO compression
+> To: livecd-users at lists.berlios.de
+> Message-ID:
+> 	
+> Content-Type: text/plain; charset="utf-8"
+> 
+> Hello,
+> 
+> I am the lead developer and team lead at Granular Linux Project (
+> http://www.granularproject.org/). Granular Linux is a PCLinuxOS based
+> distro. While making preparations for the next release of Granular, a
+> thought related to the ISO image compression came to my mind, so just wanted
+> to discuss that with you.
+> 
+> I was wondering if it is possible to increase the default compression ratio
+> for the final iso image that is prepared by the (great) mklivecd script?
+> Say, with 2.1-2.2GB uncompressed (installed) system, one can get a 700MB cd
+> image, is it possible to get the same 700 MB (approx) CD with 2.3 GB or
+> greater uncompressed content? If so, could you please guide me through the
+> procedure to achieve that? Or just point me to the appropriate location to
+> do the same, I would handle the rest.
+> 
+> Take Care.
+> 
+hello anurag.
+i really can't personally answer your question but this definately is a 
+very interresting question that is being investigated by the team 
+working on the EEEpc version of pclinux and wich is based @ 
+mypclinuxos.com forum...
+
+both xandros and pclinuxos version of linux running on the eee are 
+booting in "poor-man" mode wich is kind of helpfull when it comes to 
+space. and the pclinuxos team is looking at that very closely and if i 
+remember well tries to enhance the compression of the iso to reduce the 
+system's footprint.
+
+Ivan keres is the best person to address about that very specific issue 
+(i think) in the livecd developers team
+
+all the best for your granular distribution
+
+Pierre-Henri
+
+
+
+_________________________________________________________________
+Comme 9 millions de fran?ais, cr?ez un compte Hotmail !
+http://www.windowslive.fr/hotmail/default.asp
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080206/051a580c/attachment.html>
+
+From anurag.bhd at gmail.com  Wed Feb  6 12:40:53 2008
+From: anurag.bhd at gmail.com (Anurag Bhandari)
+Date: Wed, 6 Feb 2008 17:10:53 +0530
+Subject: [Livecd-users] Livecd-users Digest, Vol 13, Issue 1
+In-Reply-To: <BAY126-W570595EB0F7A3EAAF7EEAFA42D0@phx.gbl>
+References: <BAY126-W570595EB0F7A3EAAF7EEAFA42D0@phx.gbl>
+Message-ID: <6c20a9110802060340y53ee9652qe59b7895c4b7242b@mail.gmail.com>
+
+Thanks a lot for the reply, Pierre-Henri. I'll certainly contact Ivan, as
+suggested by you. But how do I contact him? There's not mention of his email
+address at his BerliOS profile page.
+
+Nevertheless, I guess my question passes to him through this mailing list.
+Ivan, are you there? ;)
+
+On Feb 6, 2008 1:24 PM, Ramboz Pierre-Henri <didouph at hotmail.com> wrote:
+
+>  livecd-users-request at lists.berlios.de a ?crit :
+> > Send Livecd-users mailing list submissions to
+> > livecd-users at lists.berlios.de
+> >
+> > To subscribe or unsubscribe via the World Wide Web, visit
+> > https://lists.berlios.de/mailman/listinfo/livecd-users
+> > or, via email, send a message with subject or body 'help' to
+> > livecd-users-request at lists.berlios.de
+> >
+> > You can reach the person managing the list at
+> > livecd-users-owner at lists.berlios.de
+> >
+> > When replying, please edit your Subject line so it is more specific
+> > than "Re: Contents of Livecd-users digest..."
+> >
+> >
+> > Today's Topics:
+> >
+> > 1. ISO compression (Anurag Bhandari)
+> >
+> >
+> > ----------------------------------------------------------------------
+> >
+> > Message: 1
+> > Date: Mon, 4 Feb 2008 16:56:43 +0530
+> > From: "Anurag Bhandari"
+> > Subject: [Livecd-users] ISO compression
+> > To: livecd-users at lists.berlios.de
+> > Message-ID:
+> > <6c20a9110802040326y314ec6a1if810b050443c580d at mail.gmail.com>
+> > Content-Type: text/plain; charset="utf-8"
+> >
+> > Hello,
+> >
+> > I am the lead developer and team lead at Granular Linux Project (
+> > http://www.granularproject.org/). Granular Linux is a PCLinuxOS based
+> > distro. While making preparations for the next release of Granular, a
+> > thought related to the ISO image compression came to my mind, so just
+> wanted
+> > to discuss that with you.
+> >
+> > I was wondering if it is possible to increase the default compression
+> ratio
+> > for the final iso image that is prepared by the (great) mklivecd script?
+> > Say, with 2.1-2.2GB uncompressed (installed) system, one can get a 700MB
+> cd
+> > image, is it possible to get the same 700 MB (approx) CD with 2.3 GB or
+> > greater uncompressed content? If so, could you please guide me through
+> the
+> > procedure to achieve that? Or just point me to the appropriate location
+> to
+> > do the same, I would handle the rest.
+> >
+> > Take Care.
+> >
+> hello anurag.
+> i really can't personally answer your question but this definately is a
+> very interresting question that is being investigated by the team
+> working on the EEEpc version of pclinux and wich is based @
+> mypclinuxos.com forum...
+>
+> both xandros and pclinuxos version of linux running on the eee are
+> booting in "poor-man" mode wich is kind of helpfull when it comes to
+> space. and the pclinuxos team is looking at that very closely and if i
+> remember well tries to enhance the compression of the iso to reduce the
+> system's footprint.
+>
+> Ivan keres is the best person to address about that very specific issue
+> (i think) in the livecd developers team
+>
+> all the best for your granular distribution
+>
+> Pierre-Henri
+>
+>
+>
+> ------------------------------
+> T?l?chargez gratuitement Messenger 2008<http://www.windowslive.fr/majmessenger.asp>
+>
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>
+>
+
+
+-- 
+Anurag Bhandari
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080206/0c22559b/attachment.html>
+
+From didouph at hotmail.com  Thu Feb  7 22:49:29 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Thu, 7 Feb 2008 21:49:29 +0000
+Subject: [Livecd-users] compression
+Message-ID: <BAY126-W3219CEAE9AE7261A899F5FA42E0@phx.gbl>
+
+
+
+> Nevertheless, I guess my question passes to him through this mailing list.
+> Ivan, are you there? ;)
+
+i guess he's and will answer you
+
+etrj is working at the very moment on a new compression method, here is 
+a quote from jmiahman on pclinuxos addressing the eepclinuxos progress 
+in this domain ...
+
+> etjr is trying to get lzma support in a development 2.6.24 kernel.Once
+> that happens we can patch squashfs and get about (depending on the
+> files of course) a 30% (max) increase on compression. This would
+> benefit PCLinuxOS as a whole.
+
+anyway, apart from the pclinuos core developement around mklivecd, there 
+is a loot going on at mypclinuxos with scrits for very "wierd and fun 
+installs derivated and extanding mklived ... it's cooking and somehow 
+boiling ... i think it won't be long before we get some major 
+enhancement in the framework!
+
+
+
+
+_________________________________________________________________
+Microsoft vous offre un logiciel pour classer, retoucher et partager vos photos !
+http://www.windowslive.fr/galerie/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080207/dcf8e74b/attachment.html>
+
+From anurag.bhd at gmail.com  Fri Feb  8 04:36:58 2008
+From: anurag.bhd at gmail.com (Anurag Bhandari)
+Date: Fri, 8 Feb 2008 09:06:58 +0530
+Subject: [Livecd-users] compression
+In-Reply-To: <BAY126-W3219CEAE9AE7261A899F5FA42E0@phx.gbl>
+References: <BAY126-W3219CEAE9AE7261A899F5FA42E0@phx.gbl>
+Message-ID: <6c20a9110802071936n2689166difa4848ccf1f85ec5@mail.gmail.com>
+
+Wow! The news seems interesting. I do hope that the day is not far away when
+you guys would come up with a whole new enhanced (and revolutionized)
+mkinitrd script. :)
+
+On Feb 8, 2008 3:19 AM, Ramboz Pierre-Henri <didouph at hotmail.com> wrote:
+
+>
+> > Nevertheless, I guess my question passes to him through this mailing
+> list.
+> > Ivan, are you there? ;)
+>
+> i guess he's and will answer you
+>
+> etrj is working at the very moment on a new compression method, here is
+> a quote from jmiahman on pclinuxos addressing the eepclinuxos progress
+> in this domain ...
+>
+> > etjr is trying to get lzma support in a development 2.6.24 kernel.Once
+> > that happens we can patch squashfs and get about (depending on the
+> > files of course) a 30% (max) increase on compression. This would
+> > benefit PCLinuxOS as a whole.
+>
+> anyway, apart from the pclinuos core developement around mklivecd, there
+> is a loot going on at mypclinuxos with scrits for very "wierd and fun
+> installs derivated and extanding mklived ... it's cooking and somehow
+> boiling ... i think it won't be long before we get some major
+> enhancement in the framework!
+>
+>
+>
+>
+> ------------------------------
+> Windows Live Messenger 2008 vient de sortir, enti?rement personnalisable !
+> T?l?chargez gratuitement Messenger 2008<http://www.windowslive.fr/majmessenger.asp>
+>
+> _______________________________________________
+> Livecd-users mailing list
+> Livecd-users at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/livecd-users
+>
+>
+
+
+-- 
+Anurag Bhandari
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080208/eb483bd8/attachment.html>
+
+From anurag.bhd at gmail.com  Wed Feb 20 16:37:45 2008
+From: anurag.bhd at gmail.com (Anurag Bhandari)
+Date: Wed, 20 Feb 2008 21:07:45 +0530
+Subject: [Livecd-users] LZMA compression
+Message-ID: <6c20a9110802200737v344bff7bl89010f544275642c@mail.gmail.com>
+
+Hello all,
+
+A simple question to the developers of mklivecd again. is it possible to use
+the LZMA compression scheme in the mklivecd script, as it is used in the
+linux-live script (http://www.linux-live.org/)? If yes, then how? What do
+modify in the mklivecd script to get it done?
+
+Link to squashfs lzma website: http://www.squashfs-lzma.org/
+
+Thanks.
+
+-- 
+Anurag Bhandari
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080220/e73c502d/attachment.html>
+
+From didouph at hotmail.com  Thu Feb 21 18:23:11 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Thu, 21 Feb 2008 17:23:11 +0000
+Subject: [Livecd-users] Livecd-users Digest, Vol 13, Issue 5
+Message-ID: <BAY126-W36A5565D576BBC0646B82AA41C0@phx.gbl>
+
+
+hi
+
+as far as i know support for that lzma compression is the focuss point 
+of the devs at the very moment ...
+
+but maibe etjr has some more accurate answer to give you !
+
+DidouPh
+
+
+_________________________________________________________________
+Nouveau ! Cr?ez votre profil Messenger !
+http://home.services.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080221/d210f1b2/attachment.html>
+

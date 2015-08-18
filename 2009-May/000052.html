@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/livecd-users/2009-May/index.html" >
+   <LINK REL="made" HREF="mailto:livecd-users%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-users%5D%20Help%20for%20building%20an%20iso%20for%0A%20Mandriva%092009.0-based%20distribution.&In-Reply-To=%3C4A1D5703.3010100%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.</H1>
+    <B>Thomas Lottmann</B> 
+    <A HREF="mailto:livecd-users%40lists.berlios.de?Subject=Re%3A%20%5BLivecd-users%5D%20Help%20for%20building%20an%20iso%20for%0A%20Mandriva%092009.0-based%20distribution.&In-Reply-To=%3C4A1D5703.3010100%40gmail.com%3E"
+       TITLE="[Livecd-users] Help for building an iso for Mandriva	2009.0-based distribution.">skiperdrake at gmail.com
+       </A><BR>
+    <I>Wed May 27 17:06:43 CEST 2009</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#52">[ date ]</a>
+              <a href="thread.html#52">[ thread ]</a>
+              <a href="subject.html#52">[ subject ]</a>
+              <a href="author.html#52">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello!
+
+I've decided to come back to mklivecd, but I have a problem : after 
+havin taken the hotplug fonction in the code that does not work under 
+Mandriva Linux, I now get the following error :
+
+
+chmod 644 /tmp/mklivecd.14645/livecd/livecd.sqfs [100.00% 
+00:00:00/00:00:00]chmod: ne peut acc&#233;der 
+`/tmp/mklivecd.14645/livecd/livecd.sqfs': Aucun fichier ou dossier de ce 
+type
+DIE
+FATAL: Execution of 'chmod 644 /tmp/mklivecd.14645/livecd/livecd.sqfs' 
+failed
+
+
+This is obtained using the latest version of mklivecd. The older 
+versions are trash.
+
+I would like to make work mklivecd under Mandriva Linux, if possible. It 
+is much easier than Draklive.
+
+Thank you by advance if you have any idea.
+
+Thomas Lottmann aka Skiper
+
+Anurag Bhandari a &#233;crit :
+&gt;<i> Thomas,
+</I>&gt;<i>
+</I>&gt;<i> In my opinion, you should try the latest PCLinuxOS version of 
+</I>&gt;<i> mklivecd. They have modified the script to use LZMA compression which 
+</I>&gt;<i> is better than the normal compression used by mklivecd. With LZMA, you 
+</I>&gt;<i> can get a 700MB image for even a 2.3GB installed system.
+</I>&gt;<i>
+</I>&gt;<i> Get the PCLOS version of mklivecd as a RPM from:
+</I>&gt;<i> <A HREF="http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/RPMS.testing/mklivecd-0.7.1-21pclos2007.i586.rpm">http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/pclinuxos/2007/RPMS.testing/mklivecd-0.7.1-21pclos2007.i586.rpm</A>
+</I>&gt;<i>
+</I>&gt;<i> Take Care.
+</I>&gt;<i>
+</I>&gt;<i> On Mon, Jan 19, 2009 at 3:17 AM, Thomas Lottmann 
+</I>&gt;<i> &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">skiperdrake at gmail.com</A> &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">skiperdrake at gmail.com</A>&gt;&gt; wrote:
+</I>&gt;<i>
+</I>&gt;<i>     Hello.
+</I>&gt;<i>
+</I>&gt;<i>     I have recently build a light weight system entirely based on Mandriva
+</I>&gt;<i>     Linux 2009.0, but I have some difficulties and questions.
+</I>&gt;<i>
+</I>&gt;<i>     At first, the system does not contain a lot of programs and components
+</I>&gt;<i>     (LXDE desktop, and few GTK/Gnome programs) and thought, the livecd is
+</I>&gt;<i>     still heavy, about 740MB. I would have liked it to be inferior to
+</I>&gt;<i>     700MB,
+</I>&gt;<i>     but even reducing the number of the components does nothing. The
+</I>&gt;<i>     system
+</I>&gt;<i>     is doing about 2.1GB.
+</I>&gt;<i>     Since it is aimed for old computers, do you think it is possible
+</I>&gt;<i>     to make
+</I>&gt;<i>     it launch the installation process like in the Free edition of
+</I>&gt;<i>     Mandriva.
+</I>&gt;<i>     Old systems are a bit old to launch live mode I think.
+</I>&gt;<i>
+</I>&gt;<i>     Also, it seems it does not find correctly the bootsplash. There no
+</I>&gt;<i>     bootsplash when launching the CD.
+</I>&gt;<i>
+</I>&gt;<i>     This is the first time I create a LiveCD and mklivecd looks so easy to
+</I>&gt;<i>     use compared to draklive. Thank you for providing this tool and thank
+</I>&gt;<i>     you in advance for your help.
+</I>&gt;<i>
+</I>&gt;<i>     NB : The package livecd-utils could not install a perl package.
+</I>&gt;<i>     However
+</I>&gt;<i>     it is installed. Squashfs-utils is also installed.
+</I>&gt;<i>
+</I>&gt;<i>     Thomas Lottmann aka Skiper.
+</I>&gt;<i>     _______________________________________________
+</I>&gt;<i>     Livecd-users mailing list
+</I>&gt;<i>     <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A> &lt;mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>&gt;
+</I>&gt;<i>     <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">https://lists.berlios.de/mailman/listinfo/livecd-users</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> -- 
+</I>&gt;<i> Anurag Bhandari
+</I>&gt;<i> <A HREF="http://anurag.granularproject.org/">http://anurag.granularproject.org/</A>
+</I>&gt;<i>
+</I>&gt;<i> Founder &amp; Project Lead,
+</I>&gt;<i> Granular Linux Project
+</I>&gt;<i> <A HREF="http://www.granularproject.org/">http://www.granularproject.org/</A>
+</I>&gt;<i> <A HREF="http://www.granularlinux.com/">http://www.granularlinux.com/</A>
+</I>&gt;<i> ------------------------------------------------------------------------
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Livecd-users mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">Livecd-users at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/livecd-users">https://lists.berlios.de/mailman/listinfo/livecd-users</A>
+</I>&gt;<i>   
+</I>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/livecd-users/attachments/20090527/b185d9f0/attachment.html">https://lists.berlios.de/pipermail/livecd-users/attachments/20090527/b185d9f0/attachment.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#52">[ date ]</a>
+              <a href="thread.html#52">[ thread ]</a>
+              <a href="subject.html#52">[ subject ]</a>
+              <a href="author.html#52">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/livecd-users">More information about the Livecd-users
+mailing list</a><br>
+</body></html>

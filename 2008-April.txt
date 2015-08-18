@@ -1,0 +1,38 @@
+From dieter at d-schuetze.de  Fri Apr 18 21:51:56 2008
+From: dieter at d-schuetze.de (=?ISO-8859-15?Q?Dieter_Sch=FCtze?=)
+Date: Fri, 18 Apr 2008 21:51:56 +0200
+Subject: [Livecd-users] lzma ?
+Message-ID: <4808FBDC.4070306@d-schuetze.de>
+
+Hello list,
+does mklivecd support squashfs with lzma ?
+
+Regards
+Dieter
+
+
+
+From didouph at hotmail.com  Sat Apr 19 20:57:27 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sat, 19 Apr 2008 18:57:27 +0000
+Subject: [Livecd-users] lzma
+Message-ID: <BLU125-W163B7995F628E0F0ABF670A4E70@phx.gbl>
+
+
+not yet
+
+
+> Hello list,
+> does mklivecd support squashfs with lzma ?
+> 
+
+but its being investigated...
+
+
+_________________________________________________________________
+Cr?ez votre disque dur virtuel Windows Live SkyDrive, 5Go de stockage gratuit !
+http://www.windowslive.fr/skydrive/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/livecd-users/attachments/20080419/83f7c3ad/attachment.html>
+
